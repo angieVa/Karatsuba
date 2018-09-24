@@ -24,12 +24,6 @@ public class Main extends Application{
 	}
 	
 	public static void main(String[] args) {
-		
-		Karatsuba k = new Karatsuba();
-		
-		System.out.println(k.karatsuba(new BigInteger("-1234568666"), new BigInteger("567897777")));
-		
-		
 		launch(args);
 	}
 
