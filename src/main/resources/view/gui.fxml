@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <TextField fx:id="Num" layoutX="64.0" layoutY="32.0" prefHeight="50.0" prefWidth="188.0" />
+      <TextField fx:id="Den" layoutX="64.0" layoutY="100.0" prefHeight="50.0" prefWidth="188.0" />
+      <Label fx:id="result" layoutX="347.0" layoutY="68.0" prefHeight="50.0" prefWidth="283.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="butResult" layoutX="265.0" layoutY="67.0" mnemonicParsing="false" onAction="#butcalculator" prefHeight="35.0" prefWidth="64.0" text="=">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="27.0" layoutY="83.0" text="X">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
